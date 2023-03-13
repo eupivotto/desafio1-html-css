@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --main-color: #FF4081;
+    --p-color: #555555b9;
+    --borda-border: #c4c4c4a2;
+    --size-p-font-size: 1.200rem;
+}
+
+.secao {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    width: 100%;
+}
+
+.info-secao {
+    width: 35%;
+    padding-right: 50px;
+}
+
+.info-secao h1 {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 3.400rem;
+}
+
+.info-secao p {
+    color: var(--p-color);
+    font-size: var(--size--font-size);
+    font-weight: 400;
+}
+
+
+/* aulas */
+nav {
+    background-color: #F7F7F7;
+}
+
+.container img {
+    width: 360px;
+    height: 211px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.conteudo {
+    width: 30%;
+}
+
+.conteudo p {
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.521);
+    font-size: var(--size--font-size)
+}
+
+.conteudo h1 {
+    color: var(--main-color);
+    margin-left: 10px;
+    font-size: 1.800rem;
+}
+
+
+.border {
+    border: 3px solid var(--borda-border); 
+    margin: 50px 50px;
+}
+
+
+@media (max-width: 500px) {
+    .secao {
+        display: flex;
+        flex-direction: column;
+    }
+    .secao img {
+        width: 350px;
+        margin-left: 80px;
+    }
+    .info-secao {
+        width: 100%;
+        text-align: center;
+        margin-left: 100px;
+    }
+    .info-secao h1 {
+        font-size: 1.590rem;
+        text-align: center;
+    }
+    .info-secao p {
+        font-size: 1.800rem;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+    }
+    .container img {
+        width: 300px;
+        height: 200px;
+        
+    }
+    .conteudo {
+        width: 100%;
+        text-align: center;
+    }
+    .conteudo p {
+        font-size: 18px;
+        color: black;
+    }
+}
+
+
+
+
