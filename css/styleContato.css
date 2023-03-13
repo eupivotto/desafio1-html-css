@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secao1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 80vw;
+    gap: 10vh;
+}
+
+.secao1-form{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 2vh;
+    width: 60%;
+}
+
+.secao1-form h1{
+    font-size: 2.5vw;
+    color: rgba(255, 64, 129, 1);
+}
+
+#nome{
+    border: 2px solid #686868;
+    border-radius: 7px;
+    font-size: 0.7vw;
+    width: 100%;
+    padding-block: 0.3vw;
+    padding-left: 2%;
+}
+
+#email{
+    border: 2px solid #686868;
+    border-radius: 7px;
+    font-size: 0.7vw;
+    width: 100%;
+    padding-block: 0.3vw;
+    padding-left: 2%;
+}
+
+#mensagem{
+    border: 2px solid #686868;
+    border-radius: 7px;
+    font-size: 0.7vw;
+    width: 100%;
+    padding-top: 0.4vw;
+    padding-bottom: 6.5vw;
+    padding-left: 2%;
+}
+
+.secao1-form button{
+    background-color: rgba(255, 64, 129, 1);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    padding: 0.4vw 2vw;
+    cursor: pointer;
+}
+
+.secao1-form button:hover{
+    background-color: rgb(228, 58, 115);
+}
+
+.secao1-imagem{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+
+@media only screen and (max-width: 1273px){
+    .secao1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        gap: 5vw;
+        margin-top: 50px;
+    }
+
+    .secao1-form{
+        width: 100%;
+    }
+
+    .secao1-form h1{
+        font-size: 5vw;
+    }
+
+    .secao1-imagem img{
+        width: 80vw !important;
+    }
+
+    #nome{
+        font-size: 2.5vw;
+        padding-block: 0.8vw;
+    }
+    
+    #email{
+        font-size: 2.5vw;
+        padding-block: 0.8vw;
+    }
+    
+    #mensagem{
+        font-size: 2.5vw;
+        padding-top: 0.8vw;
+        padding-bottom: 7vw;
+    }
+
+    .secao1-form button{
+        font-size: 2.5;
+        padding: 1vw 4vw;
+        cursor: pointer;
+    }
+    
+}

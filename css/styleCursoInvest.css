@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 1);
+}
+
+ul{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10%;
+    margin-bottom: 40px;
+    background-color:rgba(46, 148, 138, 1);
+}
+
+header ul{
+    display: flex;
+    gap: 15px;
+}
+
+header ul li{
+    padding: 5px;
+}
+
+header ul li a{
+    transition: 300ms;
+    color: rgb(255, 255, 255);
+}
+
+header ul li a:hover{
+    color: rgb(225, 225, 225);
+    text-decoration: underline;
+}
+
+#logo{
+    height: 50px;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secao1{
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    padding-bottom: 65px;
+}
+
+.secao1-texto h1{
+    font-size: 3.5vh;
+    color: rgba(255, 64, 129, 1);
+}
+
+.secao1-texto p{
+    margin: 15px auto;
+    font-weight: 300;
+}
+
+.secao1-imagem img{
+    height: 350px;
+    margin: auto 50px;
+}
+
+
+.secao2{
+    background-color: rgba(246, 246, 246, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.secao2-aulas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    padding: 65px 50px;
+}
+
+.secao2-aulas-texto{
+    font-size: 18px;
+}
+
+.secao2-aulas-texto h3{
+    color: rgba(255, 64, 129, 1);
+    font-weight: 300;
+    font-size: 1.2vw;
+}
+
+.secao2-aulas-video{
+    width: 80%;
+}
+
+.secao2-aulas-texto p{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 0.85vw;
+}
+
+iframe{
+    height: 250px;
+    width: 400px;
+}
+
+#aula2{
+    border-top: 3px solid rgba(196, 196, 196, 1);
+    border-bottom: 3px solid rgba(196, 196, 196, 1);
+}
+
+
+@media only screen and (max-width: 1187px){
+    .secao1{
+        width: 80vw;
+    }
+
+    .secao2{
+        width: 70vw;
+    }
+
+    .secao2-aulas{
+        padding: 30px 0px;
+    }
+
+    .secao1-texto h1{
+        font-size: 3vw;
+    }
+
+    .secao1-texto p{
+        font-size: 1.2vw;
+    }
+    
+    .secao1-imagem img{
+        height: 15vh;
+        margin: auto 20px;
+    }
+
+    .secao2-aulas-texto h3{
+        font-size: 2vw;
+    }
+
+    .secao2-aulas-texto p{
+        font-size: 1.2vw;
+    }
+    
+    iframe{
+        height: 180px;
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 642px){
+    header ul{
+        font-size: 2.3vw;
+        gap: 2px;
+    }
+    
+    #logo{
+        height: 30px;
+    }
+
+    .secao1{
+        padding-bottom: 30px;
+    }
+
+    .secao1-texto h1{
+        font-size: 4vw;
+    }
+
+    .secao1-texto p{
+        font-size: 2vw;
+    }
+
+    .secao1-imagem img{
+        height: 12vh;
+    }
+
+    .secao2{
+        width: 90vw;
+    }
+
+    .secao2-aulas-texto h3{
+        font-size: 3.2vw;
+    }
+
+    .secao2-aulas-texto p{
+        margin-top: 6px;
+        font-size: 1.79vw;
+    }
+    
+    iframe{
+        height: 100px;
+        width: 200px;
+    }
+}
