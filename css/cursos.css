@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+}
+header{
+    background: #2E948A;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+h1{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 2%;
+    font-size: 45px;
+}
+nav{
+    display: flex;
+}
+.nav-principal{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    margin-right: 5%;
+}
+nav li{
+    margin-right: 5%;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.titulo-pricipal{
+    color: #FF4081;
+    font-size: 60px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.descricao{
+    color: #555555;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+.img-conteudo{
+    width: 300px;
+    height: 310px;
+    float: left;
+    margin-left: 10%;
+    margin-right: 3%;
+}
+.lista-conteudo{
+    list-style: none;
+    
+}
+h3{
+    font-size: 35px;
+    color: #FF4081;
+    margin-bottom: 3%;
+}
+p{
+    font-size: 18px;
+    width: 1170px;
+    margin-bottom: 4%;
+}
+.itens a{
+    color: white;
+    font-size: 20px;
+    background: #419488;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.secao-conteudo{
+    border-bottom: 5px solid #C4C4C4;
+    padding-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+.secao-final{
+    padding-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+footer{
+    background: #419488;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.secao-footer{
+    display: flex;
+}
+.img-footer{
+    float: left;
+    margin-left: 10%;
+    margin-right: 3%;
+}
+.lista-footer{
+    list-style: none;
+    width: 360px;
+    margin-right: 20%;
+}
+h4{
+    font-size: 66px;
+    color: white;
+}
+.descricao-footer{
+    font-size: 19px;
+    color: white;
+}
+.lista-itens{
+    list-style: none;
+    color: white;
+    margin-right: 20%;
+    text-decoration: none;
+}
+.item-footer{
+    padding-top: 10%;
+}
+.link-footer{
+    border: 2px solid white;
+    padding: 10px 40px;
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+@media screen and (max-width: 420px){
+    .logo{
+        height: 35px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .nav-principal{
+        margin-right: auto;
+    }
+    nav li{
+        font-size: 8px;
+    }
+    .titulo-pricipal{
+        font-size: 20px;
+    }
+    p{
+        width: 400px;
+        display: table-cell;
+        font-size: 8px;
+        padding-bottom: 2%;
+    }
+    .descricao{
+        font-size: 10px;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    .img-conteudo{
+        width: 100px;
+        height: 110px;
+        margin-left: auto;
+    }
+    h3{
+        font-size: 11px;
+    }
+    .itens a{
+        font-size: 8px;
+        padding: 5px 15px;
+    }
+    .secao-conteudo {
+        padding-bottom: 40px;
+    }
+    h4 {
+        display: flow-root;
+        font-size: 25px;
+    }
+    .descricao-footer {
+        font-size: 11px;
+        display: list-item;
+    }
+    .lista-itens{
+        margin-right: 5%;
+        font-size: 11px;
+    }
+    .lista-footer{
+        width: 120px;
+    }
+    .img-footer{
+        margin-left: 5%;
+        width: 50px;
+    }
+    .link-footer{
+        font-size: 11px;
+        padding: 2px 5px;
+        width: 90px;
+    }
+    .secao-final{
+        margin-bottom: auto;
+        padding-bottom: 70px;
+    }
+    footer{
+        padding-bottom: 7%;
+    }
+}
+@media screen and (max-width: 915px){
+    @media  screen and (min-width: 420px) {
+        .img-conteudo{
+            width: 240px;
+            height: 230px;
+            margin-bottom: 10%;
+            margin-left: 5%;
+        }
+        p{
+            width: 700px;
+        }
+        .secao-conteudo{
+            padding-bottom: 5%;
+        }
+        .secao-final{
+            margin-bottom: 0;
+        }
+        .lista-footer{
+            margin-right: 10%;
+        }
+        .lista-itens{
+            margin-right: 10%;
+        }
+    
+    }
+    
+}
