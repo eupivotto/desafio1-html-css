@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container_primario {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    color: #FF4081;
+    font-size: 3.125rem;
+    font-weight: 500;
+    padding: 7px;
+}
+
+.container_primario p {
+    color: #9D9D9D;
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.container_secundario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secundario {
+    width: 51%;
+    display: inline-table;
+    justify-content: center;
+}
+
+.secundario p {
+    margin-top: 25px;
+    font-size: 1.125rem;
+    color: black;
+    font-weight: 300;
+}
+
+.secundario h2 {
+    color: #419488;
+    font-size: 1.625rem;
+    font-weight: 500;
+    margin-top: 55px;
+}
+
+aside {
+    background-color: #F7F7F7;
+}
+
+h3 {
+    color: #FF4081;
+    font-size: 3.125rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 35px;
+    margin-top: 50px;
+}
+
+.investimentos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4 {
+    color: #FF4081;
+    font-size: 1.563rem;
+    font-weight: 700;
+    padding: 25px;
+}
+
+.investimentos p {
+    color: black;
+    font-size: 1.063rem;
+    font-weight: 300;
+    padding: 15px;
+}
+
+button {
+    background-color: #FF4081;
+    border: none;
+    border-radius: 62px;
+    font-size: 1.25rem;
+    padding: 16px 25px;
+    color: #ffff;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 420px) {
+    h1 {
+        font-size: 1.500rem;
+    }
+    .container_primario p {
+        font-size: 0.900rem;
+        font-weight: bold;
+    }
+    .container_primario img {
+        width: 300px;
+    }
+    .container_secundario {
+        text-align: center;
+        width: 100%;
+    }
+    .secundario {
+        width: 80%;
+    }
+    h1, h3, h4 {
+        font-size: 1.500rem;
+    }
+    .secundario h2 {
+        font-size: 1.400rem;
+    }
+} 
