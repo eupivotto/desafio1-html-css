@@ -94,7 +94,8 @@ h3 {
     font-size: 2.313rem;
     font-weight: 700;
     color: #009688;
-    margin-left: 120px;
+    margin-left: 180px;
+    margin-top: 150px;
 }
 
 /*Sobre*/
@@ -112,7 +113,7 @@ main {
     grid-template-columns: 20fr 20fr;
     width: 60%;
     flex-wrap: wrap;
-    margin-left: 50px;
+    margin-left: 170px;
    
 }
 
@@ -145,6 +146,7 @@ main {
     padding: 80px;
     margin-top: 150px;
     background-color: #F7F7F7;
+    gap: 20px;
 }
 
 h2 {
@@ -173,6 +175,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px; 
+    margin-bottom: 50px;
 }
 
 @media (max-width:500px) {
@@ -193,6 +196,7 @@ h2 {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
+        font-size: 1.463rem;
     }
 
     button {
@@ -201,20 +205,20 @@ h2 {
     }
     
     .lista-beneficios h2, p, button {
-        font-size: 14px;
-
+        font-size: 1.188rem;
     }
     .lista-beneficios img {
         width: 90px;
         height: 90px;
     }
-
-
-    main {
+    .sobre {
+        width: 80%;
         display: flex;
-    }
+        flex-direction: column;
+        margin: auto;
+        }
     .sobre p {
-        font-size: 13px;
+        font-size: 1.188rem;
         color: #000;
     }
    .sobre img {
@@ -222,21 +226,20 @@ h2 {
         height: 40px;
    } 
    h3 {
-    font-size: 13px;
+        font-size: 1.188rem;
+        margin: auto;
+        text-align: center;
    }
-   aside {
-        display: flex;
-        gap: 20px;
-    }
-  
+   
     .conteudo img {
         width: 90px;
     }
     .conteudo h2, p {
-        font-size: 14px;
+        font-size: 1rem;
 }
     .conteudo p {
-        font-size: 12px;
+        font-size: 0.750rem;
+       
     }
     .paragrafo-final {
         width: 150px;
