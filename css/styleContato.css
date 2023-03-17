@@ -1,9 +1,10 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    color: rgba(0, 0, 0, 1);
+}
+
+html{
+    font-family: 'Ubuntu', sans-serif;  
 }
 
 .header{
@@ -32,10 +33,10 @@
 
 .menu-nav a{
     font-size: 20px;
-    font-weight: 700;
     text-decoration: none;
     color: white;
     display: flex;
+    text-transform: uppercase;
 }
 
 main{

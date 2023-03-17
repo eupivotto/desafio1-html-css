@@ -34,10 +34,10 @@ html{
 
 .menu-nav a{
     font-size: 20px;
-    font-weight: 700;
     text-decoration: none;
     color: white;
     display: flex;
+    text-transform: uppercase;
 }
 
 .intro{

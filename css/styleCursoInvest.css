@@ -16,6 +16,7 @@ a{
 }
 
 header{
+    height: 117px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +45,9 @@ header ul li a:hover{
 }
 
 #logo{
-    height: 50px;
+    width: 244px;
+    height: 77px;
+    font-size: 20px;
 }
 
 
