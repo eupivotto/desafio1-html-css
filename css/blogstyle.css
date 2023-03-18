@@ -38,6 +38,7 @@ html{
     color: white;
     display: flex;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .intro{
